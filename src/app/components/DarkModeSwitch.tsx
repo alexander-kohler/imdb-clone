@@ -11,7 +11,9 @@ export default function DarkModeSwitch() {
 
   useEffect(() => setMounted(true), []);
 
+  // Set currentTheme to the system theme if theme == 'system' else set it to the value of theme
   const currentTheme = theme === "system" ? systemTheme : theme;
+
   return (
     <>
       {mounted &&
