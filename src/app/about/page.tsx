@@ -31,15 +31,15 @@ export default function About() {
       <p>
         We are committed to making our platform accessible and easy to use for
         everyone. We strive to provide a seamless user experience across all
-        devices, whether you're on your desktop or mobile device. Our platform
-        is constantly evolving, and we're always looking for new ways to improve
-        and enhance your experience.
+        devices, whether you&#39;re on your desktop or mobile device. Our
+        platform is constantly evolving, and we&#39;re always looking for new
+        ways to improve and enhance your experience.
       </p>
       <p>
         Thank you for visiting our IMDB clone, and we hope you enjoy your time
-        here! If you have any feedback or suggestions, please don't hesitate to
-        reach out to us. We're always happy to hear from our users and improve
-        our platform.
+        here! If you have any feedback or suggestions, please don&#39;t hesitate
+        to reach out to us. We&#39;re always happy to hear from our users and
+        improve our platform.
       </p>
     </div>
   );
