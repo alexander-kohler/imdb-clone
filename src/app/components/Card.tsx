@@ -5,7 +5,7 @@ import { FiThumbsUp } from "react-icons/fi";
 
 export default function Card({ result }: any) {
   return (
-    <div className="cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group">
+    <div className="cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group mb-4 sm:mb-0">
       <Link href={`/movie/${result.id}`}>
         <Image
           src={`https://image.tmdb.org/t/p/original/${
@@ -13,7 +13,7 @@ export default function Card({ result }: any) {
           }`}
           width={500}
           height={300}
-          className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200 object-cover "
+          className="rounded-lg group-hover:opacity-80 transition-opacity duration-200 object-cover "
           style={{ maxWidth: "100%", maxHeight: "300px" }}
           placeholder="blur"
           blurDataURL="/spinner.svg"
