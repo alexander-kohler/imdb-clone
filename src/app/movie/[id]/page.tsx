@@ -10,7 +10,7 @@ async function getMovie(movieId: any) {
 
 export default async function Movie({ params }: any) {
   const movie = await getMovie(params.id);
-  console.log(movie);
+  //console.log(movie);
   return (
     <div className="w-full">
       <div className="p-4 md:pt-8 flex flex-col md:flex-row items-center content-center max-w-6xl mx-auto md:space-x-6">
