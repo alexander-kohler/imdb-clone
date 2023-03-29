@@ -13,8 +13,8 @@ export default function Card({ result }: any) {
           }`}
           width={500}
           height={300}
-          className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
-          //   style={{ maxWidth: "100%", height: "auto" }}
+          className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200 object-cover "
+          style={{ maxWidth: "100%", maxHeight: "300px" }}
           placeholder="blur"
           blurDataURL="/spinner.svg"
           alt="Image not available"
